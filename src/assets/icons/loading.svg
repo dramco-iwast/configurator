@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   inkscape:export-ydpi="96"
+   inkscape:export-xdpi="96"
+   inkscape:export-filename="C:\Users\Calle\OneDrive\Documenten\GitHub\favicon.png"
+   sodipodi:docname="icon-full.svg"
+   inkscape:version="1.0beta2 (3287d1b, 2019-12-24)"
+   id="svg2636"
+   version="1.1"
+   viewBox="0 0 189.81572 219.18025"
+   height="219.18025mm"
+   width="189.81572mm">
+  <defs
+     id="defs2630">
+    <linearGradient
+       id="linearGradient3256"
+       inkscape:collect="always">
+      <stop
+         id="stop3252"
+         offset="0"
+         style="stop-color:#003380;stop-opacity:1" />
+      <stop
+         style="stop-color:#00ccff;stop-opacity:1"
+         offset="0.49327883"
+         id="stop3260" />
+      <stop
+         id="stop3254"
+         offset="1"
+         style="stop-color:#aaeeff;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient
+       gradientUnits="userSpaceOnUse"
+       y2="327.78125"
+       x2="601.29102"
+       y1="327.78125"
+       x1="123.17773"
+       id="linearGradient3258"
+       xlink:href="#linearGradient3256"
+       inkscape:collect="always" />
+    <linearGradient
+       gradientTransform="matrix(0.13229167,-0.22913589,0.22913589,0.13229167,-90.452372,126.33572)"
+       y2="327.78125"
+       x2="601.29102"
+       y1="327.78125"
+       x1="123.17773"
+       gradientUnits="userSpaceOnUse"
+       id="linearGradient3264"
+       xlink:href="#linearGradient3256"
+       inkscape:collect="always" />
+    <linearGradient
+       y2="327.78125"
+       x2="601.29102"
+       y1="327.78125"
+       x1="123.17773"
+       gradientTransform="matrix(-0.13229167,-0.22913589,0.22913589,-0.13229167,-26.268615,267.83764)"
+       gradientUnits="userSpaceOnUse"
+       id="linearGradient3268"
+       xlink:href="#linearGradient3256"
+       inkscape:collect="always" />
+    <linearGradient
+       y2="327.78125"
+       x2="601.29102"
+       y1="327.78125"
+       x1="123.17773"
+       gradientTransform="matrix(-0.26458334,0,0,-0.26458334,128.36752,283.00383)"
+       gradientUnits="userSpaceOnUse"
+       id="linearGradient3272"
+       xlink:href="#linearGradient3256"
+       inkscape:collect="always" />
+    <linearGradient
+       y2="327.78125"
+       x2="601.29102"
+       y1="327.78125"
+       x1="123.17773"
+       gradientTransform="matrix(-0.13229167,0.22913589,-0.22913589,-0.13229167,218.8199,156.66811)"
+       gradientUnits="userSpaceOnUse"
+       id="linearGradient3276"
+       xlink:href="#linearGradient3256"
+       inkscape:collect="always" />
+    <linearGradient
+       y2="327.78125"
+       x2="601.29102"
+       y1="327.78125"
+       x1="123.17773"
+       gradientTransform="matrix(0.13229167,0.22913589,-0.22913589,0.13229167,154.63614,15.166189)"
+       gradientUnits="userSpaceOnUse"
+       id="linearGradient3280"
+       xlink:href="#linearGradient3256"
+       inkscape:collect="always" />
+  </defs>
+  <sodipodi:namedview
+     inkscape:window-maximized="1"
+     inkscape:window-y="-8"
+     inkscape:window-x="-8"
+     inkscape:window-height="1017"
+     inkscape:window-width="1920"
+     fit-margin-bottom="0"
+     fit-margin-right="0"
+     fit-margin-left="0"
+     fit-margin-top="0"
+     showgrid="false"
+     inkscape:document-rotation="0"
+     inkscape:current-layer="layer1"
+     inkscape:document-units="mm"
+     inkscape:cy="379.35789"
+     inkscape:cx="-14.240129"
+     inkscape:zoom="0.381181"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base" />
+  <metadata
+     id="metadata2633">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(30.724096,-31.911795)"
+     id="layer1"
+     inkscape:groupmode="layer"
+     inkscape:label="Layer 1">
+    <path
+       inkscape:export-ydpi="600"
+       inkscape:export-xdpi="600"
+       inkscape:export-filename="C:\Users\Calle\Documents\GitHub\configurator\src\favicon.ico.png"
+       inkscape:connector-curvature="0"
+       transform="scale(0.26458333)"
+       d="M 362.23438,189.69141 123.17773,327.71094 V 465.87109 L 362.23438,327.85156 601.29102,465.87109 V 327.71094 Z"
+       inkscape:transform-center-y="-1.1101457e-06"
+       style="fill:url(#linearGradient3258);fill-opacity:1;stroke:none;stroke-width:1.88976"
+       id="path3237" />
+    <path
+       inkscape:export-ydpi="600"
+       inkscape:export-xdpi="600"
+       inkscape:export-filename="C:\Users\Calle\Documents\GitHub\configurator\src\favicon.ico.png"
+       inkscape:transform-center-x="-15.812602"
+       inkscape:connector-curvature="0"
+       id="path3262"
+       style="fill:url(#linearGradient3264);fill-opacity:1;stroke:none;stroke-width:0.499999"
+       inkscape:transform-center-y="9.1294183"
+       d="m 0.93332599,68.429416 2.5e-5,73.035294 31.65744801,18.27744 -2.5e-5,-73.035298 63.250433,-36.517621 -31.65745,-18.277436 z" />
+    <path
+       inkscape:export-ydpi="600"
+       inkscape:export-xdpi="600"
+       inkscape:export-filename="C:\Users\Calle\Documents\GitHub\configurator\src\favicon.ico.png"
+       d="M -30.724096,159.74215 32.526336,196.25977 64.183788,177.98234 0.93335099,141.46471 0.93337999,68.42942 -30.724068,86.70685 Z"
+       inkscape:transform-center-y="-9.1294192"
+       style="fill:url(#linearGradient3268);fill-opacity:1;stroke:none;stroke-width:0.499999"
+       id="path3266"
+       inkscape:connector-curvature="0"
+       inkscape:transform-center-x="-15.812601" />
+    <path
+       inkscape:export-ydpi="600"
+       inkscape:export-xdpi="600"
+       inkscape:export-filename="C:\Users\Calle\Documents\GitHub\configurator\src\favicon.ico.png"
+       inkscape:transform-center-x="1.5e-06"
+       inkscape:connector-curvature="0"
+       id="path3270"
+       style="fill:url(#linearGradient3272);fill-opacity:1;stroke:none;stroke-width:0.499999"
+       d="m 32.52634,232.81465 63.250403,-36.51767 7e-6,-36.55488 -63.250414,36.51767 -63.250402,-36.51767 -5e-6,36.55487 z" />
+    <path
+       inkscape:export-ydpi="600"
+       inkscape:export-xdpi="600"
+       inkscape:export-filename="C:\Users\Calle\Documents\GitHub\configurator\src\favicon.ico.png"
+       inkscape:transform-center-y="-9.129415"
+       d="m 127.4342,214.57441 -3e-5,-73.03529 -31.65745,-18.27744 2.3e-5,73.0353 -63.250431,36.51762 31.657444,18.27744 z"
+       style="fill:url(#linearGradient3276);fill-opacity:1;stroke:none;stroke-width:0.499999"
+       id="path3274"
+       inkscape:connector-curvature="0"
+       inkscape:transform-center-x="15.812602" />
+    <path
+       inkscape:export-ydpi="600"
+       inkscape:export-xdpi="600"
+       inkscape:export-filename="C:\Users\Calle\Documents\GitHub\configurator\src\favicon.ico.png"
+       inkscape:transform-center-x="15.812601"
+       inkscape:connector-curvature="0"
+       id="path3278"
+       style="fill:url(#linearGradient3280);fill-opacity:1;stroke:none;stroke-width:0.499999"
+       d="m 159.09162,123.26168 -63.250435,-36.51762 -31.657452,18.27743 63.250437,36.51763 -3e-5,73.03529 31.65745,-18.27743 z"
+       inkscape:transform-center-y="9.12942" />
+    <text
+       id="text3284"
+       y="279.10651"
+       x="-33.114578"
+       style="font-size:26.0152px;line-height:1.25;font-family:'Major Mono Display';-inkscape-font-specification:'Major Mono Display';letter-spacing:0px;fill:#00112b;stroke-width:0.650378"
+       xml:space="preserve"><tspan
+         id="tspan3286"
+         style="fill:#00112b;stroke-width:0.650378"
+         y="279.10651"
+         x="-33.114578"
+         sodipodi:role="line">iot with a </tspan><tspan
+         id="tspan3290"
+         style="fill:#00112b;stroke-width:0.650378"
+         y="311.62552"
+         x="-33.114578"
+         sodipodi:role="line">soft touch</tspan></text>
+  </g>
+</svg>
