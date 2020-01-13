@@ -1,0 +1,16 @@
+<header>
+  <nav>
+    <a id="logo">logo</a>
+    <ul class="head-topbar">
+      <li id="minimize" (click)="minimizeWindow()">
+        <img [src]="imagePathMinimize" alt="minimize">
+      </li>
+      <li id="maximize" (click)="maximizeWindow()">
+        <img [src]="imagePathMaximize" alt="maximize">
+      </li>
+      <li id="close" (click)="closeWindow()">
+        <img [src]="imagePathClose" alt="close">
+      </li>
+    </ul>
+  </nav>
+</header>

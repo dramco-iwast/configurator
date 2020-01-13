@@ -1,0 +1,25 @@
+.flex-container{
+  .settings{
+    text-align: right;
+    padding-top: 15px;
+    .is-active{
+      display: none;
+    }
+    a{
+      height: 50px;
+      cursor: pointer;
+      margin-right: 15px;
+      text-decoration: none;
+      padding-top: 40px;
+      background: no-repeat url('../assets/icons/settings.png') top center;
+      background-size: 30px;
+      display: inline-block;
+      width: 75px;
+      font-size: 14px;
+      text-align: center;
+    }
+  }
+  .settings:focus{
+    outline: none;
+  }
+}

@@ -1,0 +1,4 @@
+sensors:
+  0x01: !!inc/file sound-level-sensor.yaml
+  0x02: !!inc/file button-sensor.yaml
+  0x03: !!inc/file BME680.yaml

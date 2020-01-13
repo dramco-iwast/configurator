@@ -1,0 +1,9 @@
+<div class="container">
+  <div class="grid">
+    <ul class="sensors row justify-content-center list-unstyled">
+      <li class="col-xl-6 col-lg-6 col-md-6 p-3" *ngFor="let metric of sensor?.metrics | keyvalue">
+        <app-metric [safeEvent]="safeTrigger" [metric]="metric.value"></app-metric>
+      </li>
+    </ul>
+  </div>
+</div>

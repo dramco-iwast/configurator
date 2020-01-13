@@ -1,0 +1,93 @@
+.container{
+  margin-top: 15px;
+  margin-left: 35px;
+  #return{
+    font-size: 14px;
+    cursor: pointer;
+    background: url("../../../assets/icons/return.png")no-repeat left center;
+    background-size: 20px;
+    padding-left: 35px;
+    a{
+      text-decoration: none;
+      color: rgba(255, 255, 255, .2);
+    }
+  }
+  .cell{
+    margin-top: 20px;
+    display: flex;
+    .left{
+      width: 35%;
+      max-width: 250px;
+      .sidebar{
+        h2{
+          color: white;
+        }
+        .menu{
+          width: 100%;
+          ul{
+            margin: 0;
+            padding: 0;
+            li{
+              width: 100%;
+              font-size: 16px;
+              list-style: none;
+              margin-bottom: 10px;
+              a{
+                display: block;
+                text-decoration: none;
+                color: rgba(255, 255, 255, .2);
+                max-width: 150px;
+                min-width: 120px;
+                padding: 10px 0px;
+              }
+              .motherboard{
+                background: url("../../../assets/icons/motherboard.png") no-repeat 15px 50%;
+                background-size: 18px;
+                padding-left:40px;
+              }
+              .motherboard:hover{
+                background: url("../../../assets/icons/motherboardHover.png") no-repeat 15px 50%, #171A29;
+                background-size: 18px;
+                padding-left:40px;
+                color: white;
+                border-radius: 5px;
+              }
+              .language{
+                background: url("../../../assets/icons/language.png") no-repeat 3px 65%;
+                padding-left:40px;
+                background-size: 35px;
+              }
+              .language:hover{
+                background: url("../../../assets/icons/languageHover.png") no-repeat  3px 65%, #171A29;
+                padding-left:40px;
+                background-size: 35px;
+
+                color: white;
+                border-radius: 5px;
+              }
+              .language-active{
+                background: url("../../../assets/icons/languageHover.png") no-repeat  3px 65%, #171A29;
+                padding-left:40px;
+                color: white;
+                border-radius: 5px;
+                background-size: 35px;
+              }
+              .motherboard-active{
+                background: url("../../../assets/icons/motherboardHover.png") no-repeat 15px 50%, #171A29;
+                padding-left:40px;
+                color: white;
+                border-radius: 5px;
+                background-size: 18px;
+              }
+            }
+          }
+        }
+      }
+    }
+    .right{
+      width: 60%;
+      max-width: 1200px;
+      min-width: 400px;
+    }
+  }
+}

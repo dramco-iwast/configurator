@@ -1,0 +1,28 @@
+name: 
+  en: "Button Sensor"
+  nl: "Drukknop Sensor"
+
+
+parse-payload: !!js/function function (value){error("Not Implemented yet");}
+
+info:
+  nl: |-
+    Deze sensor bevat vier drukknoppen.
+  en: |-
+    This sensor hosts four push button.
+sensor-metric:
+  - id: 1
+    unit: "-"
+    quantity:
+      nl: "Ingedrukt"
+      en: "Pressed"
+    info:
+      nl: "Drukknop staat"
+      en: "Button state"
+    config:
+      threshold:
+        enabled: false
+        max: 1100
+        min: 300
+      polling:
+        enabled: false

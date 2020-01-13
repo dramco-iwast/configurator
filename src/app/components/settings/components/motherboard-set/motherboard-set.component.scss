@@ -1,0 +1,24 @@
+.container-right{
+  .motherboard-used{
+    border-bottom: 1px solid rgba(255, 255, 255, .2);
+    .dropdown-motherboard{
+      margin-bottom: 5px;
+    }
+    .mat-select-arrow{
+      color: rgba(255, 255, 255, .2);
+    }
+    .mat-select-value{
+      color: rgba(255, 255, 255, .2);
+    }
+    .mat-form-field-underline{
+      background-color: rgba(255, 255, 255, .2);
+    }
+    .mat-option{
+      color: green;
+    }
+  }
+
+  .connected-port{
+    border-bottom: 1px solid rgba(255, 255, 255, .2);
+  }
+}

@@ -1,0 +1,113 @@
+---
+
+name:
+ nl: "Environment Sensor"
+ en: "Environment Sensor"
+
+parse-payload: !!js/function >
+  function (value){
+    error("Not Implemented yet");
+  }
+
+info:
+  nl: |-
+    Deze sensor bevat vier verschillende functionaliteiten.
+    Het kan de temperatuur, druk, Luchtkwaliteit en vochtigheid opmeten.
+  en: |-
+    This sensor has four functionalities.
+    It can measure the temperature, air quality, pressure en humidity.
+sensor-metric:
+  - id: 1
+    unit: "°C"
+    quantity:
+      nl: "Temperatuur"
+      en: "Temperature"
+    info:
+      nl: "Meet de temperatuur in °C."
+      en: "Measure the temperature in °C."
+    convert-to-machine: !!js/function >
+      function (value) {
+      return value + 273.15 ;
+      }
+    convert-to-human: !!js/function >
+      function (value) {
+      return value - 273.15;
+      }
+    config:
+      threshold:
+          enabled: true
+          max: 1100
+          min: 300
+      polling:
+          enabled: true
+          min: 60 #60 is fixed by the motherboard do not change below 60
+          unit: sec
+  - id: 2
+    unit: "hPa"
+    quantity: "Pressure"
+    convert-to-machine: !!js/function > #  TODO
+      function (value) {
+      return value;
+      }
+    convert-to-human: !!js/function > #  TODO
+      function (value) {
+      return value;
+      }
+    config:
+      threshold:
+          enabled: true
+          max: 1100
+          min: 300
+      polling:
+          enabled: true
+          min: 60 #60 is fixed by the motherboard do not change below 60
+          unit: sec
+  - id: 3
+    unit: "-"
+    quantity:
+      en: "Air Quality Indication"
+      nl: "Luchtkwaliteitsindicatie"
+    info:
+      nl: |-
+        Meet hoe vervuild de lucht rondom de module is.
+        Kijk of er een risico is voor de gezondheid.
+      en: |-
+        Measure how polluted the air is.
+        Evaluate if there are any health risks possible.
+    convert-to-machine: !!js/function > #  TODO
+      function (value) {
+      return value;
+      }
+    convert-to-human: !!js/function > #  TODO
+      function (value) {
+      return value;
+      }
+    config:
+      threshold:
+          enabled: true;
+          max: 500
+          min: 0
+      minimum-polling-interval:
+          enabled: true
+          min: 60 #60 is fixed by the motherboard do not change below 60
+          unit: sec
+  - id: 4
+    unit: "%"
+    quantity: "Humidity"
+    convert-to-machine: !!js/function > #  TODO
+      function (value) {
+      return value;
+      }
+    convert-to-human: !!js/function > #  TODO
+      function (value) {
+      return value;
+      }
+    config:
+      threshold:
+          enabled: true;
+          max: 1100
+          min: 300
+      polling:
+          enabled: true
+          min: 60 #60 is fixed by the motherboard do not change below 60
+          unit: sec

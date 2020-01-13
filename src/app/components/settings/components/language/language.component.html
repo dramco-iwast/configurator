@@ -1,0 +1,14 @@
+<div class="container-right">
+  <h2>{{ 'PAGES.SETTINGS.LANGUAGE.TITLE' | translate }}</h2>
+  <p>
+    {{ 'PAGES.SETTINGS.LANGUAGE.DESCRIPTION' | translate }}
+  </p>
+  <mat-form-field>
+    <mat-select [(ngModel)]="currentLanguage">
+      <mat-option  (onSelectionChange)="languageChange($event)" *ngFor="let language of languages"
+                   [value]="language.code">
+        {{ language.nativeName }}
+      </mat-option>
+    </mat-select>
+  </mat-form-field>
+</div>

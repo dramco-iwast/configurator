@@ -1,0 +1,68 @@
+{
+  "PAGES": {
+    "HOME": {
+      "TITLE": "Verbind uw apparaat",
+      "SELECT_MOTHERBOARD": {
+        "TITLE": "Meerder moederborden zijn geregistreerd",
+        "Description": "Go to settings to chose which motherboard you want to use"
+      }
+    },
+    "SHARED": {
+      "SETTINGS": "Instellingen"
+    },
+    "SETTINGS": {
+      "TITLE": "Instellingen",
+      "RETURN": "Ga terug",
+      "LANGUAGE": {
+        "TITLE": "Taal",
+        "DESCRIPTION": "Deze taal zal gebruikt worden voor de applicatie"
+      },
+      "MOTHERBOARD": {
+        "TITLE": "Moederbord",
+        "USED_MOTHERBOARD": "Gebruikt moederbord",
+        "CONNECTED_PORT": "Verbonden poort",
+        "SENSORS": "Sensor",
+        "NO_MOTHERBOARD_FOUND": {
+          "MOTHERBOARD": "Geen moederbord gevonden",
+          "COMPORT": "Geen comport"
+        }
+      }
+    },
+    "MOTHERBOARD": {
+      "TITLE": "Moederbord:",
+      "SENSOR": {
+        "METRIC": {
+          "THRESHOLD": {
+            "ENABLE": {
+              "TITLE": "Enabled",
+              "DESCRIPTION": "Threshold aan of uitzetten"
+            },
+            "MAX": {
+              "TITLE": "Max",
+              "DESCRIPTION": "Maximum of the threshold"
+            },
+            "MIN": {
+              "TITLE": "Min",
+              "Description": "Minimum of the threshold"
+            }
+          },
+          "POLLING": {
+            "TITLE": "Minimum polling interval"
+          }
+        }
+      },
+      "CLOSE" : {
+        "TITLE": "Ontkoppel moederbord"
+      },
+      "SAFE": {
+        "TITLE": "Sla configuraties op"
+      }
+    },
+    "ERRORS": {
+      "NO_YAML_FILES_FOUND": {
+        "TITLE": "Yaml files not found",
+        "MESSAGE": "No yaml files were found. Can you check if you have an internet connection or if the yaml files have downloaded"
+      }
+    }
+  }
+}

@@ -1,0 +1,20 @@
+######### AT Responds #########
+AT_PING_INITIALIZE :
+  SUCCESS : "+PNG:"
+AT_GET_LIST_DEVICES :
+  SUCCESS : "+LS:"
+AT_GET_THRESHOLD :
+  SUCCESS : "+TH:"
+  FAIL: ""
+AT_SET_THRESHOLD :
+  SUCCESS : "OK"
+  FAIL : "ERROR"
+AT_SET_POLL:
+  SUCCESS : "OK"
+  FAIL: "ERROR"
+AT_GET_POLL:
+  SUCCESS : "+POL:"
+  FAIL: ""
+AT_CLOSE:
+  SUCCESS : "OK"
+  FAIL : "ERROR"

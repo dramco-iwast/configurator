@@ -1,0 +1,14 @@
+<div class="flex-container">
+  <div class="header-content">
+    <app-head></app-head>
+  </div>
+  <div class="settings" [routerLink] = "['/settings']">
+    <a routerLinkActive="is-active">
+      {{ 'PAGES.SHARED.SETTINGS' | translate }}
+    </a>
+  </div>
+
+  <div class="main-content">
+    <router-outlet></router-outlet>
+  </div>
+</div>

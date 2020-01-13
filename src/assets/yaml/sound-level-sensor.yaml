@@ -1,0 +1,44 @@
+name:
+  nl: "Geluid Level Sensor"
+  en: "Sound Level Sensor"
+
+parse-payload: !!js/function >
+  function (value){
+    error("Not Implemented yet");
+  }
+
+info:
+  nl: |-
+    Deze sensor zal het geluidsniveau opmeten.
+    Je kan het geluidsniveau op vaste tijdsstippen uitmeten
+    en/of doorsturen wanneer het boven of onder een bepaald niveau is.
+  en: |-
+    This sensor measures the sound level.
+    You can measure it at fixed time intervals and/or transmit the value when
+    the level falls below or rises above a threshold.
+sensor-metric:
+  - id: 1
+    unit: "dB"
+    quantity:
+      nl: "Geluidsniveau"
+      en: "Sound Level"
+    info:
+      nl: "Meet het geluidsniveau in dB."
+      en: "Measure the sound level in dB."
+    convert-to-machine: !!js/function >
+      function (value) {
+      return value;
+      }
+    convert-to-human: !!js/function >
+      function (value) {
+      return value;
+      }
+    config:
+      threshold:
+        enabled: true
+        max: 100
+        min: 0
+      polling:
+        enabled: true
+        min: 60
+        unit: sec

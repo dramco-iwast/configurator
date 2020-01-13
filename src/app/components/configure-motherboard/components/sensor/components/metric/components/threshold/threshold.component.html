@@ -1,0 +1,8 @@
+<div>
+  <mat-checkbox [(ngModel)]="enabled" (change)="thresholdEnabledChanged()">{{ 'PAGES.MOTHERBOARD.SENSOR.METRIC.THRESHOLD.ENABLE.TITLE' | translate }}</mat-checkbox>
+
+  <ng5-slider [(value)]="minimumThreshold" [(highValue)]="maximumThreshold" [options]="options"
+              (valueChange)="minimumValueChanged()" (highValueChange)="highValueChanged()"
+  ></ng5-slider>
+</div>
+

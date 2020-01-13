@@ -1,0 +1,30 @@
+<div class="container-right">
+
+  <div class="motherboard-used">
+    <h2 class="dropdown-motherboard">
+      {{ 'PAGES.SETTINGS.MOTHERBOARD.USED_MOTHERBOARD' | translate }}
+    </h2>
+    <mat-form-field>
+      <mat-select [(ngModel)]="usedMotherboard.id">
+        <mat-option  (onSelectionChange)="usedMotherboardChanged($event)" *ngFor="let motherboardId of motherboardsArray()"
+                     [value]="motherboardId">
+          {{ motherboardId }}
+        </mat-option>
+      </mat-select>
+    </mat-form-field>
+  </div>
+
+  <div class="connected-port">
+    <h2>{{ 'PAGES.SETTINGS.MOTHERBOARD.CONNECTED_PORT' | translate }} {{ usedMotherboard.serialPort?.path }}</h2>
+  </div>
+
+  <div class="sensors">
+    <h2>{{ 'PAGES.SETTINGS.MOTHERBOARD.SENSORS' | translate }}</h2>
+    <ul>
+      <li *ngFor="let sensor of motherboardSensors()">
+        {{ sensor }}
+      </li>
+    </ul>
+  </div>
+</div>
+

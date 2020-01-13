@@ -1,0 +1,28 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-3">
+      <h2>{{ 'PAGES.MOTHERBOARD.TITLE' | translate }} {{ motherboard.id }}</h2>
+    </div>
+
+    <div class="col-md-3">
+      <ul>
+        <li *ngFor="let sensor of motherboard?.sensors | keyvalue" [attr.sensorId] = "sensor.value.id"
+            (click)="sensorClicked($event)" [ngClass]="{'activeSensor': sensor.value.id === usedSensorId}">
+          {{ sensor.value.name[translate.currentLang] }}
+          <app-infobox [matTooltip]="sensor.value.info[this.translate.currentLang]">
+          </app-infobox></li>
+      </ul>
+    </div>
+
+    <div class="col-md-6">
+      <app-sensor  [safeEvent]="safeEvenSubject.asObservable()" [sensor]="motherboard.sensors[usedSensorId]" *ngIf="usedSensorId > -1"></app-sensor>
+    </div>
+
+    <div class="col text-center" >
+      <button (click)="closeClicked()">{{ 'PAGES.MOTHERBOARD.CLOSE.TITLE' | translate }}</button>
+    </div>
+    <div class="col text-center" >
+      <button (click)="safeConfig()">{{ 'PAGES.MOTHERBOARD.CLOSE.TITLE' | translate }}</button>
+    </div>
+  </div>
+</div>

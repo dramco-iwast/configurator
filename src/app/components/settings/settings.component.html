@@ -1,0 +1,33 @@
+<div class="container">
+  <div id="return">
+    <a (click)="return()">
+      {{ 'PAGES.SETTINGS.RETURN' | translate }}
+    </a>
+  </div>
+  <div class="cell">
+    <div class="left">
+      <div class="sidebar">
+        <h2>
+          {{ 'PAGES.SETTINGS.TITLE' | translate}}
+        </h2>
+        <div class="menu">
+          <ul>
+            <li>
+              <a [routerLink]="'./motherboard'" routerLinkActive="motherboard-active" class="motherboard">
+                {{ 'PAGES.SETTINGS.MOTHERBOARD.TITLE' | translate }}
+              </a>
+            </li>
+            <li>
+              <a  [routerLink]="'./language'" routerLinkActive="language-active" class="language">
+                {{ 'PAGES.SETTINGS.LANGUAGE.TITLE' | translate }}
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="right">
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+</div>

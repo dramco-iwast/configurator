@@ -1,0 +1,68 @@
+{
+  "PAGES": {
+    "HOME": {
+      "TITLE": "Connect your device",
+      "SELECT_MOTHERBOARD": {
+        "TITLE": "Multiple motherboards were detected",
+        "Description": "Go to settings to chose which motherboard you want to use"
+      }
+    },
+    "SHARED": {
+      "SETTINGS": "Settings"
+    },
+    "SETTINGS": {
+      "TITLE": "Settings",
+      "RETURN": "Go back",
+      "LANGUAGE": {
+        "TITLE": "Language",
+        "DESCRIPTION": "This language will be used to translate the application"
+      },
+      "MOTHERBOARD": {
+        "TITLE": "Motherboard",
+        "USED_MOTHERBOARD": "Use motherboard",
+        "CONNECTED_PORT": "Connected port:",
+        "SENSORS": "Sensor",
+        "NO_MOTHERBOARD_FOUND": {
+          "MOTHERBOARD": "No motherboard found",
+          "COMPORT": "No comport"
+        }
+      }
+    },
+    "MOTHERBOARD": {
+      "TITLE": "Motherboard:",
+      "SENSOR": {
+        "METRIC": {
+          "THRESHOLD": {
+            "ENABLE": {
+              "TITLE": "Enabled",
+              "DESCRIPTION": "Enables or disables the threshold"
+            },
+            "MAX": {
+              "TITLE": "Max",
+              "DESCRIPTION": "Maximum of the threshold"
+            },
+            "MIN": {
+              "TITLE": "Min",
+              "Description": "Minimum of the threshold"
+            }
+          },
+          "POLLING": {
+            "TITLE": "Minimum polling interval"
+          }
+        }
+      },
+      "CLOSE" : {
+        "TITLE": "Close the application"
+      },
+      "SAFE": {
+        "TITLE": "Save configuration"
+      }
+    },
+    "ERRORS": {
+      "NO_YAML_FILES_FOUND": {
+        "TITLE": "Yaml files not found",
+        "MESSAGE": "No yaml files were found. Can you check if you have an internet connection or if the yaml files have downloaded"
+      }
+    }
+  }
+}
