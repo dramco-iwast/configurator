@@ -31,7 +31,7 @@ export class SettingsComponent implements OnInit {
       this.router.navigate(['../motherboard']);
     }else{
       console.log('correct');
-      this.router.navigate(['../motherboard']);
+      this.router.navigate(['../home']);
     }
   }
 }
