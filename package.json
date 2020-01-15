@@ -1,11 +1,9 @@
 {
-  "name": "angular-electron",
-  "version": "6.3.1",
-  "description": "Angular 8 with Electron (Typescript + SASS + Hot Reload)",
-  "homepage": "https://github.com/maximegris/angular-electron",
+  "name": "iwast-configurator",
+  "version": "0.0.1",
   "author": {
-    "name": "Maxime GRIS",
-    "email": "maxime.gris@gmail.com"
+    "name": "Gilles Callebaut",
+    "email": "gilles.callebaut@kuleuven.be"
   },
   "keywords": [
     "angular",
@@ -37,7 +35,12 @@
     "e2e": "npm run build:prod && mocha --timeout 300000 --require ts-node/register e2e/**/*.spec.ts",
     "version": "conventional-changelog -i CHANGELOG.md -s -r 0 && git add CHANGELOG.md",
     "lint": "ng lint",
-    "install": "electron-rebuild"
+    "install": "electron-rebuild",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder -mlw portable --config",
+    "dist-linux": "electron-builder -l --config",
+    "dist-win": "electron-builder -w portable --config",
+    "dist-mac": "electron-builder -m --config"
   },
   "devDependencies": {
     "@angular-builders/custom-webpack": "8.2.0",
@@ -98,7 +101,7 @@
     "js-yaml": "^3.13.1",
     "ng-connection-service": "1.0.4",
     "ng5-slider": "^1.2.4",
-    "serialport": "^8.0.5",
+    "serialport": "^8.0.6",
     "yaml-include": "^1.2.1"
   }
 }

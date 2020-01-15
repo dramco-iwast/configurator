@@ -1,5 +1,6 @@
 {
   "productName": "angular-electron",
+  "appId": "be.dramco.iwastconfigurator",
   "directories": {
     "output": "release/"
   },
@@ -17,22 +18,23 @@
         "!_config.yml",
         "!karma.conf.js",
         "!tsconfig.json",
-        "!tslint.json"
+        "!tslint.json",
+        "*.js",
+        "*.html",
+        "release",
+        "src/**/*",
+        "./build/**/*",
+        "./index.html",
+        "./src/*.js"
     ],
   "win": {
-    "icon": "dist",
+    "icon": "dist/icon.png",
     "target": [
       "portable"
     ]
   },
-  "mac": {
-    "icon": "dist",
-    "target": [
-      "dmg"
-    ]
-  },
   "linux": {
-    "icon": "dist",
+    "icon": "dist/icon.png",
     "target": [
       "AppImage"
     ]
